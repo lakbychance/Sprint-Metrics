@@ -1,0 +1,54 @@
+.Dashboard
+{
+  display:flex;
+  flex-direction: column;
+}
+.Dashboard .AppView
+{
+margin-top:5px;
+display:flex;
+flex:1;
+justify-content:space-around;
+height:55px;
+
+}
+.Dashboard .AppView .VMetrixApp
+{
+  width:30%;
+  border:2px solid grey;
+  border-radius:5px;
+  display:flex;
+  font-weight: bold;
+  font-size: 25px;
+   
+}
+.Dashboard .AppView .VMetrixApp .Label
+{
+  margin:auto;
+}
+.Dashboard .AppView .BTrackerApp
+{
+  width:30%;
+  border:2px solid grey;
+  border-radius:5px;
+  display:flex;
+  font-weight: bold;
+  font-size: 25px;
+}
+.Dashboard .AppView .BTrackerApp .Label
+{
+  margin:auto;
+}
+.Dashboard .PlotView
+{
+  margin-top:10px;
+  width:1090px;
+  height:450px;
+  align-self: center;
+  border:2px solid grey;
+  border-radius:5px;
+}
+.Dashboard .PlotView .Plot
+{
+ margin-left:12%;
+}

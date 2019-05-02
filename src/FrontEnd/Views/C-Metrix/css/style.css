@@ -1,0 +1,56 @@
+
+table{
+  position:relative;
+  margin:auto;
+} 
+table input{
+  border-radius: 5px;
+  border:2px solid grey;
+}
+table input:focus{
+  outline:none;
+}
+h5{
+  text-align: center
+}
+hr{
+  width: 40%
+
+}
+
+.save
+{
+  margin:0 50% 0 48%;
+}
+.display
+{
+  margin:2% 50% 0 47.4%;
+}
+#sprint
+{
+  margin:2% 50% 2% 43%;
+  text-align: center;
+  border-radius:5px;
+  border:2px solid grey;
+}
+#sprint:focus{
+  outline:none;
+}
+.displayComponent
+{
+  margin:1% 50% 0 23.5%;
+}
+.Add
+{
+  border-radius: 50%;
+}
+.Add:focus{
+  outline:none;
+}
+.Delete
+{
+  border-radius: 30%;
+}
+.Delete:focus{
+  outline:none;
+}
